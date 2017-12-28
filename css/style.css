@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(rgba(92, 58, 0, .9), rgba(0, 0, 0, 0.9)), url('../img/s.jpg') !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #ffffff !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heading {
+	font-family: "Merriweather";
+	text-align: center;
+	font-size: 3.5em;
+	margin: 10% auto 5% auto;
+}
+
+.location {
+	text-align: center;
+	font-size: 3em;
+}
+
+.temp {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.icn {
+	text-align: center;
+}
+
+.desc {
+	text-align: center;
+	font-size: 2em;
+}
+
+.convert {
+	text-align: center;
+}
+
+#convert {
+	background-color: #4F2B01;
+	color: #ffffff !important;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 2em;
+	margin: 5% auto 5% auto;
+	padding: 5px 10px;
+	transition: 1s;
+	transition-timing-function: ease-in;
+}
+
+#convert:hover {
+	background-color: #ffffff !important;
+	color: #000000 !important;
+	cursor: pointer;
+}
+
+.footer {
+	font-size: 1.25em;
+	text-align: center;
+	margin-bottom: 5%;
+}
